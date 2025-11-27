@@ -1,0 +1,150 @@
+/* Ajustes generales sobre el html*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9ae0ec;
+}
+
+/* Funciones para el encabezado de la bienvenida */
+#bienvenida {
+    width: 100%;
+    background: rgb(178, 217, 241);
+    text-align: center;
+    padding: 180px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bienvenida img {
+    width: 220px;
+}
+
+/*Color de las letras de bienvenido a sporter*/
+#bienvenida h2 {
+    margin-top: 30px;
+    color: #195191;
+}
+
+/* Contenido principal */
+#mainContent {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Datos del registro y pequeños detalles*/
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(187, 19, 19);
+    font-size: 16px;
+}
+
+/* Botón de entrar */
+button {
+    width: 35%;
+    padding: 12px;
+    background: #1a5fad;
+    color: rgb(245, 239, 239);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*Cambio de color del boton de entrar*/
+button:hover {
+    background: #2422aa;
+}
+
+/* Contraseña del formulario*/
+.password-box {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+/*color de el boton de ver*/
+.toggle-btn {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    color: #082c79;
+    font-weight: bold;
+}
+
+/* CENTRAR términos + checkbox */
+.terminos {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.terminos input {
+    width: 20px;
+    height: 20px;
+}
+
+/* Catálogo de los tenis*/
+#catalogo {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*cuadrados del catalogo*/ 
+.producto {
+    background: rgb(255, 255, 255);
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgb(37, 13, 146);
+}
+
+.producto img {
+    width: 180px;
+}
+
+/*Letras de los cuadrados*/
+.producto h3 {
+    margin-top: 10px;
+    color: #0e19bb;
+}
+
+/*Datos del pie de pagina*/
+footer {
+    background-color: rgb(34, 151, 155);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+/*Letras del pie de pagina*/
+footer h3 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+
+}
+
+/* Funciones del logo de tiktok*/ 
+.social img {
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+/*Animacion de los logos del pie de pagina*/
+.social img:hover {
+    transform: scale(1.4);
+    
+}
